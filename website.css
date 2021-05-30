@@ -1,0 +1,742 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.header {
+    width:1024px;
+    background-color:white;
+    display:flex;
+    margin:20px auto;
+    
+}
+.header_logo {
+  background-image:url("logo.png");
+    width:110px;
+    height:43px;
+    margin-left:20px;
+    
+}
+.header_search {
+    display:flex;
+    margin-left:170px;
+}
+.header_search input {
+    outline:none;
+    width:435px;
+    border:1px solid #e1e1e1;
+    height:32px;
+    margin-top:6px;
+    background:url("search.png");
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    
+}
+
+.header_shop {
+    background-image:url("shop.png");
+    height:37px;
+    width:41px;
+    margin-left:155px;
+}
+.header_bucks {
+    font-family: 'Bebas Neue', cursive;
+    font-size:33px;
+    color:#a1a1a1;
+    margin-left:17px;
+    
+}
+.menu {
+    width:100%;
+    height:36px;
+    background-color:#4ccfc1;
+    box-shadow:
+    -1px 0px rgb(0,0,0), -1px 1px rgb(0,0,0),
+    -2px 1px rgb(0,0,0), -2px 2px rgb(0,0,0),
+    -3px 2px rgb(0,0,0), -3px 3px rgb(0,0,0);
+}
+.menu_content  {
+    width:1024px;
+    margin:0 auto;
+   
+}
+.menu_content ul li {
+    list-style-type: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size:21px;
+    color:white;
+    margin-top:5px;
+    margin-right:21px;
+    margin-left:22px;
+    transition:0.5s;
+}
+.menu_content ul li:hover {
+    background-color: white;
+    color:#4ccfc1;
+    border-radius:5px;
+}
+.content_ul {
+    display:flex;
+    justify-content: center;
+}
+.li_strel {
+    width:2px;
+    height:18px;
+    background-color:white;
+    margin-top:9px;
+    
+}
+.slider {
+    width:100%;
+    height:445px;
+    background-color:#3cc8b9;
+    font-family: 'Bebas Neue', cursive;
+    color:white;
+}
+.slider_content {
+    width:1024px;
+    margin:0 auto;
+    display:flex;
+}
+.slider_mike {
+    background-image:url("shirt.png");
+    width:278px;
+    height:325px;
+    margin-top:66px;
+    margin-left:78px;
+}
+.slider_text {
+    width:425px;
+    height:330px;
+    margin-top:80px;
+    margin-left:100px;
+}
+.slider_h1 {
+    font-size:61px;
+    line-height:55px;
+}
+.slider_h2 {
+    font-family: 'Open Sans', sans-serif;
+    line-height:28px;
+    margin-top:15px;
+}
+.slider_text button {
+    border:3px solid white;
+    background-color:#3cc8b9;
+    outline:none;
+    width:140px;
+    height:46px;
+    border-radius:10px;
+    color:white;
+    font-family: 'Bebas Neue', cursive;
+    font-size:27px;
+    margin-top:20px;
+    transition: 0.5s;
+}
+.slider_text button:hover {
+    background-color:white;
+    color:#3cc8b9;
+}
+.slider_tochka {
+    display:flex;
+    margin-top:30px; 
+}
+.tochka {
+    width:9px;
+    height:9px;
+    background-color:white;
+    border-radius:50%;
+    margin-left:10px;
+    transition: 0.5s;
+   
+}
+
+.tochka:hover {
+    background-color:#7ad4cd;
+}
+.shop {
+    height:190px;
+    width:100%;
+    background-color: white;
+    box-shadow:
+    -1px 0px rgb(0,0,0), -1px 1px rgb(0,0,0),
+    -2px 1px rgb(0,0,0), -2px 2px rgb(0,0,0),
+    -3px 2px rgb(0,0,0), -3px 3px rgb(0,0,0);
+}
+.shop_content {
+    width:1024px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    font-family: 'Bebas Neue', cursive;
+    color:#afafaf;
+    font-size:27px;
+}
+.shop_shoe, .shop_mike , .shop_shorts {
+    display:flex;
+}
+.shoe_img {
+    background:url("shoe.png");
+    width:205px;
+    height:151px;
+    margin-top:30px;
+}
+.mike_img {
+    background:url("mike.png");
+    width:132px;
+    height:132px;
+    margin-top:27px;
+}
+.shorts_img {
+    background:url("shorts.png");
+    width:71px;
+    height:127px;
+    margin-top:27px;
+}
+.shop_content button {
+    font-family: 'Bebas Neue', cursive;
+    font-size:19px;
+    background-color:#3cc395;
+    width:60px;
+    height:32px;
+    outline:none;
+    border:1px solid #3cc395;
+    border-radius:3px;
+    color:white;
+    margin-top:20px;
+    transition:0.5s;
+}
+.shop_content button:hover {
+    background-color:white;
+    color:#3cc395;
+}
+.mike_text , .shorts_text , .shoe_text {
+    margin-top:53px;
+}
+.shop_mike , .shop_shorts {
+    
+}
+.mike_text  {
+    margin-left:60px;
+}
+.shorts_text {
+    margin-left:70px;
+}
+.mike_name , .shorts_name, .shoe_name {
+    line-height:25px;
+}
+.products {
+    width:100%;
+    height:67px;
+    background-color:#39c3b3;
+}
+.products_content {
+    width:1024px;
+    margin:0 auto;
+    font-family: 'Bebas Neue', cursive;
+    font-size:31px;
+    color:white;
+}
+.products_text {
+    margin-left:58px;
+    padding-top:15px;
+}
+.items {
+    widows: 100%;
+    height:642px;
+    background-color:white;
+}
+.items_content {
+    width:1024px;
+    margin:0 auto;
+    
+}
+.first_first_img {
+    background:url("kabluki.png");
+    height:120px;
+    width:189px;
+    margin-left:30px;
+    margin-top:25px;
+} 
+.first_second_img {
+    background:url("levis.png");
+    height:125px;
+    width:116px;
+    margin-left:75px;
+    margin-top:20px;
+    background-repeat: no-repeat;
+}
+.first_third_img {
+    background:url("mike1.png");
+    height:118px;
+    width:105px;
+    margin-left:75px;
+    margin-top:30px;
+}
+.items_first {
+    display:flex;
+    margin-left:63px;
+    margin-top:50px;
+    font-family: 'Bebas Neue', cursive;
+}
+.first_shoe , .first_tees , .first_shoe1 {
+    height:260px;
+    width:255px;
+    border:2px solid #e4e4e4;
+    border-bottom:5px solid #3cc395;
+    color:#afafaf;
+    font-size:27px;
+}
+.first_tees , .first_shoe1 {
+    margin-left:55px;
+}
+.items button {
+    font-family: 'Bebas Neue', cursive;
+    font-size:20px;
+    background-color:#3cc395;
+    width:75px;
+    height:34px;
+    outline:none;
+    border:1px solid #3cc395;
+    border-radius:3px;
+    color:white;
+    margin-left:15px;
+    transition:0.5s;
+}
+.items button:hover {
+    background-color:white;
+    color:#3cc395;
+}
+.buy_bucks {
+    color:#afafaf;
+}
+.first_buy {
+    display:flex;
+    font-size:27px;
+    margin-left:70px;
+    margin-top:10px;
+}
+.first_text {
+    margin-left:67px;
+    margin-top:10px;
+}
+.items_second {
+    display:flex;
+    margin-left:63px;
+    margin-top:50px;
+    font-family: 'Bebas Neue', cursive;
+}
+.second_shoe , .second_tees, .second_shoe1 {
+    height:260px;
+    width:255px;
+    border:2px solid #e4e4e4;
+    border-bottom:5px solid #3cc395;
+    color:#afafaf;
+    font-size:27px;
+}
+.second_tees, .second_shoe1 {
+    margin-left:55px;
+}
+.second_first_img {
+    background:url("koshelek.png");
+    width:175px;
+    height:131px;
+    margin-left:30px;
+    margin-top:15px;
+}
+.second_second_img {
+    background:url("sumka.png");
+    width:140px;
+    height:126px;
+    margin-left:55px;
+    margin-top:20px;
+}
+.second_third_img {
+    background:url("shorts.png");
+    width:71px;
+    height:127px;
+    margin-left:90px;
+    margin-top:20px;
+}
+footer {
+    width: 100%;
+    height:338px;
+    background-color:#3cc3b5;
+    font-family: 'Open Sans', sans-serif;
+    font-size:15px;
+    color:white;
+
+}
+.footer {
+    width:1024px;
+    margin:0 auto;
+    display:flex;
+    list-style-type:none;
+    justify-content:space-between;
+}
+.sale_h1 , .store_h1 , .women_h1 , .links_h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size:27px;
+    margin-top:42px;
+}
+.footer_sale  {
+    
+    
+}
+.footer_store {
+    
+}
+.footer_women {
+    
+}
+.footer_links {
+    
+}
+.sale_text {
+    line-height:29px;
+    margin-top:10px;
+}
+.footer_end {
+    width:100%;
+    height:46px;
+    background-color:#2da89b;
+}
+.footer_content {
+    width:1024px;
+    margin:0 auto;
+}
+.footer_inner {
+    margin:0 auto;
+    height:18px;
+    width:205px;
+}
+.footer_text {
+    font-family: 'Open Sans', sans-serif;
+    font-size:15px;
+    color:white;
+    padding-top:12px;
+}
+@media screen and (max-width:1080px) {
+    .header, .menu_content, .slider_content, .shop_content, .products_content, .items_content, .footer, .footer_content {
+        width:900px;
+    }
+    .header_search {
+        margin-left:150px;
+    }
+    .header_search input {
+        width:350px;
+    }
+    .menu_content ul li {
+        margin-left:18px;
+        margin-right:17px;
+        font-size:19px;
+        margin-top:6px;
+    }
+    .shop_mike, .shop_shorts {
+        
+    }
+    .slider_h2 {
+        font-size:20px;
+    }
+    .slider_tochka {
+        margin-top:35px;
+    }
+    .shoe_img {
+        width:190px;
+        height:136px;
+        background-size:cover;
+    }
+    .products_text {
+        font-size:27px;
+    }
+    .items_first, .items_second {
+        margin-left:0px;
+        justify-content:center;
+    }
+    footer {
+        
+    }
+    body > div.menu > div > ul > li:nth-child(19) {
+        margin-right:0px;
+    }
+    body > div.menu > div > ul > li:nth-child(1) {
+        margin-left:0px;
+    }
+}
+@media screen and (max-width:950px) {
+    .header, .menu_content, .slider_content, .shop_content, .products_content, .items_content, .footer, .footer_content {
+        width:700px;
+    }
+    .header {
+        align-items:center;
+    }
+    .header_bucks {
+        font-size:25px;
+        align-items: center;
+        text-align: center;
+    }
+    .header_search {
+        margin-left:110px;
+    }
+    .header_search input {
+        width:250px;
+    }
+    .header_logo {
+        width:110px;
+        height:43px;
+        background-size:contain;
+        background-repeat:no-repeat;
+    }
+    .header_shop {
+        width:35px;
+        height:31px;
+        background-size:contain;
+        background-repeat:no-repeat;
+        margin-left:120px;
+        
+    }
+    .menu_content ul li {
+        font-size:16px;
+        margin-left:13px;
+        margin-right:11px;
+        margin-top:8px;
+    }
+    .slider_mike {
+        background-size:contain;
+        background-repeat: no-repeat;
+    }
+    .slider_h1 {
+        font-size:40px;
+    }
+    .slider_h2, .slider_text button {
+        font-size:18px;
+    }
+    .slider_text button {
+        width:120px;
+    }
+    .mike_text, .shorts_text, .shoe_text {
+        margin-left:10px;
+    }
+    .first_first_img, .first_second_img, .first_third_img {
+        margin:0 auto;
+        margin-top:20px;
+    }
+    .first_text {
+        margin:0 auto;
+        margin-top:20px;
+        text-align: center;
+    }
+    .first_buy {
+        margin:0;
+        justify-content: center;
+    }
+    body > div.shop > div > div.shop_shoe > div.shoe_text {
+        margin-left:0px;
+    }
+    .second_first_img, .second_second_img, .second_third_img {
+        margin:0 auto;
+        margin-top:20px;
+    }
+}
+@media screen and (max-width:760px) {
+    .header, .menu_content, .slider_content, .shop_content, .products_content, .items_content, .footer, .footer_content {
+        width:550px;
+    }
+    .header {
+        justify-content: center;
+    }
+    .header_logo {
+        margin-left:0px;
+    }
+    .header_search input {
+        width:180px;
+        margin-top:0px;
+    }
+    .header_search {
+        margin-left:80px;
+    }
+    .header_shop {
+        margin-left:80px;
+    }
+    .menu_content ul li {
+        margin-left:5px;
+        margin-right:5px;
+    }
+    .slider_h1 {
+        font-size:35px;
+        line-height:30px;
+    }
+    .slider_h2 {
+        font-size:16px;
+    }
+    .slider_mike {
+        margin-left:20px;
+    }
+    .slider_text {
+        margin-left:50px;
+    }
+    .slider {
+        height:400px;
+    }
+    .mike_name, .shorts_name, .shoe_name {
+        font-size:22px;
+    }
+    .shop_content button {
+        font-size: 16px;
+    }
+    .shoe_img  {
+        width:160px;
+        height:106px;
+        background-size:contain;
+        background-position:right;
+    }
+    .mike_img {
+        width:112px;
+        height:112px;
+        background-size:contain;
+    }
+    .shorts_img {
+        width:71px;
+        height:117px;
+        background-size:contain;
+        background-repeat:no-repeat;
+        margin-left:20px;
+    }
+    .mike_text, .shorts_text, .shoe_text {
+        margin-left:1px;
+    }
+    .first_tees, .first_shoe1, .second_tees, .second_shoe1 {
+        margin-left:0px;
+    }
+    .items_first, .items_second {
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:570px) {
+    .header, .menu_content, .slider_content, .shop_content, .products_content, .items_content, .footer, .footer_content {
+        width:375px;
+    }
+    .header_bucks {
+        font-size:25px;
+    }
+    .header_search input {
+        width:120px;
+    }
+    .header_shop, .header_search {
+        margin-left:20px;
+    }
+    .li_strel {
+        display:none;
+    }
+    .menu_content::before {
+        content:"\2630";
+        font-size:20px;
+    }
+    .menu_content {
+        text-align:right;
+        padding-top:3px;
+        
+    }
+    .content_ul {
+        display:block;
+        position:absolute;
+        top:-100%;
+        width:100px;
+        text-align:center;
+        transition:0.5s;
+        right:33%;
+    }
+
+    body > div.menu > div > ul > li:nth-child(1) {
+        margin-left:5px;
+    }
+    .slider_mike {
+        margin-left:0px;
+    }
+    .tochka {
+        height:5px;
+        width:5px;
+    }
+    .slider_text {
+        margin-left:20px;
+    }
+    .slider_h2 {
+        line-height:20px;
+    }
+    .slider_h1 {
+        font-size:28px;
+    }
+    .slider_text button  {
+        width:90px;
+        height:40px;
+    }
+    .shop_content {
+        display:block;
+    }
+    .shop {
+        height:500px;
+    }
+    .shop_shoe, .shop_mike, .shop_shorts {
+        justify-content: center;
+    }
+    .mike_text, .shorts_text {
+        margin-left:40px;
+    }
+    .shorts_text {
+        margin-left:55px;
+    }
+    .products_text {
+        margin-left:0px;
+    }
+    .items {
+        height:1750px;
+    }
+    .items_first, .items_second {
+        display:block;
+        
+    }
+    .first_shoe, .first_tees, .first_shoe1,.second_shoe, .second_tees, .second_shoe1 {
+        margin:20px auto;
+        width:100%;
+    }
+    footer {
+        height:470px;
+    }
+    .sale_h1, .store_h1, .women_h1, .links_h1 {
+        font-size:22px;
+    }
+    .sale_text {
+        font-size:14px;
+    }
+    .footer {
+        text-align:center;
+    }
+    .mike_name, .shorts_name, .shoe_name {
+        font-size:27px;
+    }
+    .shop_content button {
+        font-size:20px;
+    }
+    .menu {
+        align-items: center;
+    }
+    .view {
+        display:block;
+        background-color:#018f81;;
+        transition:0.5s;
+        top:0px;
+        margin:0 auto;
+    }
+}
+@media screen and (max-width:375px) {
+    .header, .menu_content, .slider_content, .shop_content, .products_content, .items_content, .footer, .footer_content {
+        width:310px; }
+        .slider_text, .slider_mike {
+            margin-top:50px;
+            margin-left:10px;
+        }
+        .header_logo, .header_shop{
+            background-position: center;
+        }
+}
